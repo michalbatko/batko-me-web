@@ -1,9 +1,6 @@
 name: Release
 
 on:
-  pull_request:
-    types: [closed]
-    branches: [ "main" ]
   push:
     tags: [ 'v*' ]
 
@@ -19,7 +16,6 @@ permissions:
 jobs:
   release:
     name: Build and Publish Docker Image
-    if: github.event.pull_request.merged == true || github.event_name == 'push'
     runs-on: ubuntu-latest
 
     steps:
