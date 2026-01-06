@@ -4,7 +4,7 @@ export default function Home() {
       {/* Command 1: User Info */}
       <div className="mb-8">
         <div className="flex flex-wrap items-center gap-2 mb-2">
-          <span className="text-white">PS C:\Users\michal\></span>
+          <span className="text-white">PS C:\Users\michal\&gt;</span>
           <span className="text-yellow-400">Get-UserInfo</span>
         </div>
         <div className="ml-0 md:ml-4 text-gray-200">
@@ -16,7 +16,7 @@ export default function Home() {
       {/* Command 2: Contact Details */}
       <div className="mb-8">
         <div className="flex flex-wrap items-center gap-2 mb-2">
-          <span className="text-white">PS C:\Users\michal\></span>
+          <span className="text-white">PS C:\Users\michal\&gt;</span>
           <span className="text-yellow-400">Get-ContactDetails</span>
         </div>
         <div className="ml-0 md:ml-4 text-gray-200 flex flex-col gap-1">
@@ -37,7 +37,7 @@ export default function Home() {
 
       {/* Blinking Cursor at the end */}
       <div className="mt-4">
-        <span className="text-white">PS C:\Users\michal\></span>
+        <span className="text-white">PS C:\Users\michal\&gt;</span>
         <span className="animate-pulse bg-white text-transparent ml-2 select-none">_</span>
       </div>
     </main>
