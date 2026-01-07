@@ -20,15 +20,15 @@ export default function Home() {
         <div className="ml-0 md:ml-4 text-gray-200 flex flex-col gap-1">
           <p>
             <span className="font-bold text-cyan-300 w-24 inline-block">Email:</span>
-            <a href="mailto:michal@batko.me" className="hover:underline hover:text-white">michal@batko.me</a>
+            <a href="mailto:michal@batko.me" aria-label="Send email to michal@batko.me" className="hover:underline hover:text-white">michal@batko.me</a>
           </p>
           <p>
             <span className="font-bold text-cyan-300 w-24 inline-block">GitHub:</span>
-            <a href="https://github.com/michalbatko" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-white">github.com/michalbatko</a>
+            <a href="https://github.com/michalbatko" target="_blank" rel="noopener noreferrer" aria-label="Visit Michal Batko's GitHub profile" className="hover:underline hover:text-white">github.com/michalbatko</a>
           </p>
           <p>
             <span className="font-bold text-cyan-300 w-24 inline-block">LinkedIn:</span>
-            <a href="https://linkedin.com/in/michal-batko" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-white">linkedin.com/in/michal-batko</a>
+            <a href="https://linkedin.com/in/michal-batko" target="_blank" rel="noopener noreferrer" aria-label="Visit Michal Batko's LinkedIn profile" className="hover:underline hover:text-white">linkedin.com/in/michal-batko</a>
           </p>
         </div>
       </div>
