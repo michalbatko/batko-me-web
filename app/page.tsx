@@ -1,7 +1,6 @@
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col p-4 md:p-10 font-mono text-lg md:text-xl">
-      {/* Command 1: User Info */}
       <div className="mb-8">
         <div className="flex flex-wrap items-center gap-2 mb-2">
           <span className="text-white">PS C:\Users\michal\&gt;</span>
@@ -13,7 +12,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Command 2: Contact Details */}
       <div className="mb-8">
         <div className="flex flex-wrap items-center gap-2 mb-2">
           <span className="text-white">PS C:\Users\michal\&gt;</span>
@@ -35,7 +33,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Blinking Cursor at the end */}
       <div className="mt-4">
         <span className="text-white">PS C:\Users\michal\&gt;</span>
         <span className="animate-pulse bg-white text-transparent ml-2 select-none">_</span>
